@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jsPractise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="buttons-wrapper">
+            <div class="button-alert-wrap">
+                <button class="button-alert" onclick="buttonAlert()">Click</button>
+            </div>
+            <div class="redirect-button-wrap">
+                <button class="redirect-button" onclick="redirectButton()">Redirect to Apple cite</button>
+            </div>
+            <div class="button-clicker-wrap">
+                <button class="button-clicker" onclick="buttonClickCounter()">Clicker<br>counter</button>
+            </div>
+        </div>  
+    </div>
+    <script>
+        //clicking button alert function
+        var buttonClicks = 0;
+        function buttonAlert() {
+            buttonClicks++;
+            if (buttonClicks == 5) {
+                alert("You are clicking too much!");
+                buttonClicks = 0;
+            }
+        }
+        //redirect button function
+        var redirectButtonClick = 0;
+        function redirectButton() {
+            redirectButtonClick++;
+            if (redirectButtonClick == 1) {
+                window.location.replace("https://www.apple.com/");
+            }
+        }
+        //click counter
+        var clickCounter = 0;
+        function buttonClickCounter() {
+            if (clickCounter += 1) {
+                alert("You clicked " +clickCounter+ " time(s)");
+            } 
+        }
+        //console cycle
+        var numberMassive = new Array (1, 2, 3, 4, 5);
+        var num2 = 0;
+        while (num2 <= 5) {  
+            console.log(num2);
+            num2++;
+        }
+    </script>
+</body>
+</html>

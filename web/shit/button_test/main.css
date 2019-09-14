@@ -1,0 +1,54 @@
+html,
+body {
+    font-family: 'Manjari', sans-serif;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+p {
+    margin: 20px;
+}
+
+.show-button-wrapper {
+    text-align: center;
+    vertical-align: center;
+    margin-top: 300px;
+}
+
+.show-button {
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    outline: 0;
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
+    -webkit-transition: 0.3s;
+}
+
+.show-button:hover {
+    background-color: #fff;
+    color: #000;
+    -webkit-transition: 0.3s;
+}
+
+.close-button-wrapper {
+    text-align: center;   
+}
+
+.close-button {
+    float: right;
+    background: none;
+    outline: 0px;
+    border: 0;
+}
+
+.close-img {
+    width: 20px;
+}
+
+.close-img:hover {
+    filter: invert(30%);
+}

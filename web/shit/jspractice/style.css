@@ -1,0 +1,53 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(73, 73, 73);
+    margin: 0;
+    padding: 0;
+}
+
+button:active {
+    background-color: #fff;
+    color: #000;
+}
+
+.buttons-wrapper {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.buttons-wrapper div {
+    padding: 5px;
+}
+
+.button-alert {
+    background-color: #000;
+    color: #aaa;
+	width: 100px;
+	height: 50px;
+    outline: 0px;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.redirect-button {
+    background-color: #000;
+    color: #aaa;
+	width: 100px;
+	height: 50px;
+    outline: 0px;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button-clicker {
+    background-color: #000;
+    color: #aaa;
+	width: 100px;
+	height: 50px;
+    outline: 0px;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+}
