@@ -55,14 +55,14 @@ class ListModifier:
         for i in range(self.range):
             if intList[i] > m:
                 m = intList[i]
-        print('Max element is ' + str(m))
+        print('\nMax element is ' + str(m))
 
     def minListElement(self):
         m = intList[0]
         for i in range(self.range):
             if intList[i] < m:
                 m = intList[i]
-        print('Min element is ' + str(m))
+        print('\nMin element is ' + str(m))
 
     def showList(self):
         for i in intList:
