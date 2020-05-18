@@ -23,9 +23,9 @@ class ListModifier:
             else:
                 dublicatesList.append(num)
         if len(dublicatesList) > 0:
-            print('This is dublicates: ' + str(dublicatesList))
+            print('\nThis is dublicates: ' + str(dublicatesList))
         else:
-            print('There is no dublicates')
+            print('\nThere is no dublicates')
     
     def createDublicatesListFile(self):
         try:
