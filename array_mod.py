@@ -1,10 +1,10 @@
 import array_modifier as am
 
-n = int(input('Input range '))
+n = int(input('Input range '))      #Quantity of numbers
 
-myList = am.ListModifier(n)
-myList.makeList()
-myList.checkForDublicates()
-myList.showList()
-myList.createDublicatesListFile()
-myList.maxListElement()
+myList = am.ListModifier(n)         #Assign a module to a variable
+myList.makeList()                   #Makes a list
+myList.showList()                   #Shows a list    
+myList.checkForDublicates()         #Checks, are there any dublicake numbers 
+myList.createDublicatesListFile()   #Makes files that contain dublicate numbers
+myList.maxListElement()             #Max element of list
