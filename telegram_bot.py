@@ -5,7 +5,7 @@ import random
 
 #apihelper.proxy = {'http':'http://10.10.1.10:3128'}
 
-bot = telebot.TeleBot("1129314510:AAH3e7gmbLOuCjhjfqXf-B29hTQ23aEXjLM")
+bot = telebot.TeleBot("API")
 
 @bot.message_handler(commands = ['start'])
 def send_welcome(message):
