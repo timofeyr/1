@@ -18,14 +18,14 @@ def send_help(message):
 @bot.message_handler(commands = ['for_klim'])
 def send_klim(message):
     bot.send_message(message.chat.id, 'Wait a sec')
-    pic = open('/Users/79771/Desktop/tbot/img/klim.jpg', 'rb')
+    pic = open('PATH', 'rb')
     bot.send_photo(message.chat.id, pic)
     pic.close()
 
 @bot.message_handler(commands = ['pic'])
 def send_pic(message):
     bot.send_message(message.chat.id, 'Wait a sec')
-    pic_path = os.chdir(r'/Users/79771/Desktop/tbot/img')
+    pic_path = os.chdir(r'PATH')
     pic = open(random.choice(os.listdir(pic_path)), 'rb')
     bot.send_photo(message.chat.id, pic)
     pic.close()
@@ -33,7 +33,7 @@ def send_pic(message):
 @bot.message_handler(commands = ['gif'])
 def send_gif(message):
     bot.send_message(message.chat.id, 'Wait a sec')
-    pic_path = os.chdir(r'/Users/79771/Desktop/tbot/gif')
+    pic_path = os.chdir(r'PATH')
     pic = open(random.choice(os.listdir(pic_path)), 'rb')
     bot.send_animation(message.chat.id, pic)
     pic.close()
