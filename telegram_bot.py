@@ -1,9 +1,6 @@
 import telebot
-from telebot import apihelper
 import os
 import random
-
-#apihelper.proxy = {'http':'http://10.10.1.10:3128'}
 
 bot = telebot.TeleBot("TOKEN")
 
